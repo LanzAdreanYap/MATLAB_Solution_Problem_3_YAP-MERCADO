@@ -22,6 +22,7 @@ for d = 1:s %Set a for loop 1 to s
         bestfit = pf;
     end
 end
+% plot the graph of the best polynomial fit
 bestfit
 plot(xi,yi,'o','markerfacecolor','r')
 hold on
